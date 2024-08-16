@@ -4,7 +4,7 @@ A simple tool I wrote to test fading between colours.
 
 Requirements:
 
-* Linux running X11, with X11 libs
+* X11 (with X11 libs for compilation)
 * GCC
 
 ## How to use

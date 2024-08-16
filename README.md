@@ -7,6 +7,10 @@ Requirements:
 * Linux running X11, with X11 libs
 * GCC
 
-See the [justfile](./justfile) for how to build and run.
+## How to use
 
+See the [justfile](./justfile) for how to build and run.
 Once running, just `SIGINT` it (^C) to close.
+
+The intention is for you to write new functions in `color.c`, and then set `COLOR` to your new function.
+Once you've done that, re-running the program will use your new function.
